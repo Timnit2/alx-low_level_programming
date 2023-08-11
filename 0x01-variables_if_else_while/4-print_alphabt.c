@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char smal;
+	char smal = 'a';
 
 	while (smal <= 'z')
 	{
