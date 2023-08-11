@@ -2,12 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *  * main - Entry point
- *   *
- *    * Description: This program prints "posotive or negative"
- *     *
- *      * Return: Always 0 (Success)
- *       */
+ *  main - entry point
+ *  Description: This program prints "posotive or negative"
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
