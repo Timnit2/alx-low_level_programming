@@ -8,7 +8,7 @@ int main(void)
 {
 	char mm = 'a';
 
-	while ('a' < 'z')
+	while (mm <= 'z')
 	{
 		putchar(mm);
 		mm++;
