@@ -11,10 +11,6 @@ int main(void)
 	while (mm <= 57)
 	{
 		putchar(mm);
-		if (mm == 57)
-		{
-			continue;
-		}
 		mm++;
 		putchar(',');
 		putchar(' ');
