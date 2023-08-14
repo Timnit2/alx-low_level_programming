@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - entry point
- * description : printing small letter
- * return: always 0
+ * main - entry of function
+ *description : printing small letter
+ *Return: always 0
  */
 int main(void)
 {
@@ -10,7 +10,7 @@ int main(void)
 
 	while ('a' < 'z')
 	{
-		putchar(mm + 'a');
+		putchar(mm);
 		mm++;
 	}
 	putchar('\n');
