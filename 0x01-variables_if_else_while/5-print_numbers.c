@@ -10,7 +10,7 @@ int main(void)
 
 	while (btn < 10)
 	{
-		printf("%d", btn);
+		printf("%d\n", btn);
 		btn++;
 	}
 	return (0);
