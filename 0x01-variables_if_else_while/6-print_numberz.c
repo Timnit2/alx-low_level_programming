@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	int btn;
+	int btn = 0;
 
 	while (btn < 10)
 	{
-		putchar("%d", btn);
+		putchar(btn + '0');
 		btn++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
