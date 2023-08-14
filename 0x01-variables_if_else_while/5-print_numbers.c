@@ -10,7 +10,7 @@ int main(void)
 
 	while (btn < 10)
 	{
-		printf("here it is the decimal number base 10: %d", btn);
+		printf("%d", btn);
 		btn++;
 	}
 	return (0);
