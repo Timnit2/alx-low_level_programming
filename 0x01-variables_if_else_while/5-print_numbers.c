@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- * main - entry point
- * description : printing number till 10
+ * main  - entry point
+ * description : printing base 10
  * Return: always 0
  */
 int main(void)
 {
-	int num;
+	int btn = 0;
 
-	for (num == o; num < 10; num++)
+	while (btn < 10)
 	{
-		putchar(num++);
+		printf("here it is the decimal number base 10: %d", btn);
+		btn++;
 	}
-	putchar('\n');
 	return (0);
 }
