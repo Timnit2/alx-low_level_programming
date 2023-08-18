@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * print_most_numbers -printing digit except 2 and 4
- * @a: numbers
  */
 void print_most_numbers(void)
 {
@@ -11,6 +10,7 @@ void print_most_numbers(void)
 	{
 		if (a != 50 && a != 52)
 			_putchar(a);
+		a++;
 	}
-	_putchar('\n');
+	_putchar('a');
 }
