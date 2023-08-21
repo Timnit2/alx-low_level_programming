@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_array - printing element of arry the same order
  * @a: name of the array
