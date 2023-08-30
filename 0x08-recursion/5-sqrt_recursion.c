@@ -9,7 +9,7 @@ int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	return (res_sqrt_recursion(int n, 0));
+	return (res_sqrt_recursion(n, 0));
 }
 /**
  * res_sqrt_recursion - calculate the root square no
@@ -23,6 +23,6 @@ int res_sqrt_recursion(int n, int a)
 		return (-1);
 	if (a * a == n)
 		return (a);
-	return (res_sqrt_recursion(int n, a + 1));
+	return (res_sqrt_recursion(n, a + 1));
 }
 
