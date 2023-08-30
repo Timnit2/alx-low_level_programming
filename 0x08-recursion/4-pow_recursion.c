@@ -1,5 +1,4 @@
 #include "main.h"
-#include <cmath>
 
 /**
  * _pow_recursion - power function
