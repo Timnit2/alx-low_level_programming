@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * is_palindrome - to check whether the first and the last character are equal
  * @s:is a pointer of string
