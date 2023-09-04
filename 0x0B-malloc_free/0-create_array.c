@@ -10,19 +10,13 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	if (size == 0)
-	{
-		return (NULL);
-	}
-	char *arryname = malloc(size * sizeof(char));
+	char *striing;
+	unsigned int a;
 
-	if (arryname == NULL)
-	{
+	striing = malloc(sizeof(char) * size);
+	if (size == 0 || striing == NULL)
 		return (NULL);
-	}
-	for (unsigned int a = 0; a < size; a++)
-	{
-	arryname[a] = c;
-	}
-return (arryname);
+	for (a = 0; a < size; a++)
+		striing[a] = c;
+	return (striing);
 }
