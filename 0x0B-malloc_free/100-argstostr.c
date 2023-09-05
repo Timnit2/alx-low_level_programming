@@ -17,7 +17,7 @@ char *argstostr(int ac, char **av)
 	if (ac == 0 || av == NULL)
 		return (NULL);
 
-	for (int a = 0; a < ac; a++)
+	for (int a = 0; a < av; a++)
 	{
 		length += strlen(av[a]) + 1;
 	}
@@ -26,8 +26,6 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
-	int offset = 0;
-
 	for (int a = 0; a < ac; a++)
 	{
 		strcpy(rep + offset, av[a]);
