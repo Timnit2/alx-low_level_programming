@@ -33,4 +33,5 @@ char *argstostr(int ac, char **av)
 		offset += strlen(av[a]);
 		rep[offset++] = '\n';
 	}
+	return (rep);
 }
