@@ -11,6 +11,9 @@
  */
 char *str_concat(char *s1, char *s2)
 {
+	int lengths1;
+	int lengths2;
+
 	if (s1 == NULL)
 	{
 		s1 = "";
@@ -19,9 +22,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
-	int lengths1;
-	int lengths2;
-
 	lengths1 = strlen(s1);
 	lengths2 = strlen(s2);
 
