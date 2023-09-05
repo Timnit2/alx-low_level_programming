@@ -19,9 +19,12 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
+	int lengths1;
+	int lengths2;
 
-	int lengths1 = strlen(s1);
-	int lengths2 = strlen(s2);
+	lengths1 = strlen(s1);
+	lengths2 = strlen(s2);
+
 	char *new_result = malloc(lengths1 + lengths2 + 1);
 
 	if (new_result == NULL)
