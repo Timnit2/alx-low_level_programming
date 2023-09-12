@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stddef>
+#include <stddef.h>
 /**
  * init_dog - struct dog
  * struct dog - file of the dog
