@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 
 	for (a = 0; a < n; a++)
 	{
-		printf("%02x", p[a]);
+		printf("%02x", ptr[a]);
 		if (a < n - 1)
 		{
 			printf(" ");
