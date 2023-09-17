@@ -1,6 +1,7 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
+#include <stddef.h>
 /**
  * print_strings - print strings
  * @separator: a pointer to a string to be printed
@@ -33,4 +34,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 		a++;
 	}
+	va_end(args);
+	printf("\n");
 }
